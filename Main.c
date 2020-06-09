@@ -159,7 +159,7 @@ int16_t main(void)
 
 				if (ntimestp == 't')
 				{
-					printf("\Revolutions: ");
+					printf("\nRevolutions: ");
 					scanf("%d", &ntimes);
 					printf("%d", ntimes);
 
@@ -242,7 +242,7 @@ int16_t main(void)
 					scanf("%d", &steps);
 					printf("%d\n", steps);
 
-					printf("\Speed\n 1 [seconds for one revolution: 4,096]\n 2 [seconds for one revolution: 8,192]\n 3 [seconds for one revolution: 16,384]\n ");
+					printf("\nSpeed\n 1 [seconds for one revolution: 4,096]\n 2 [seconds for one revolution: 8,192]\n 3 [seconds for one revolution: 16,384]\n ");
 					scanf("%d", &speed);
 					printf("%d", speed);
 
